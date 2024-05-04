@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: FilterUpdater
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"FilterUpdater","summary":"Reloads
+      the last worn pair of glasses and selected material after a user\u2019s face
+      is lost and rediscovered by AR Foundation.","pan":{"x":-1.249695,"y":-113.7831},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-340.0,"y":-131.0},"guid":"074f7686-3f22-4df1-afb5-6509843c96fc","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"chainable":false,"parameterNames":["tag"],"member":{"name":"FindWithTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%tag":{"$content":"","$type":"System.String"}},"position":{"x":-111.0,"y":-155.0},"guid":"a3b1c7d7-3a4a-4eef-a410-c1638b68f258","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"chainable":false,"member":{"name":"enabled","parameterTypes":null,"targetType":"UnityEngine.MeshRenderer","targetTypeName":"UnityEngine.MeshRenderer","$version":"A"},"defaultValues":{"target":null,"input":{"$content":true,"$type":"System.Boolean"}},"position":{"x":142.0,"y":-149.0},"guid":"d4697509-5793-4938-9d74-dc11ff984167","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"15"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"currentGlassesTag","$type":"System.String"},"object":null},"position":{"x":-366.0,"y":22.0},"guid":"e475194c-8275-41ac-ba40-0808906b1112","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"sourceUnit":{"$ref":"11"},"sourceKey":"exit","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"47e4c145-8ec0-4554-b1a0-b2572cc6e5a0","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"93bb9733-393d-43a1-a8e2-1de827623219","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"result","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"1a6195da-6a54-493b-b998-03a3ea114f6c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"%tag","guid":"068b18ff-00a9-454e-a669-b2c7b0b89028","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
